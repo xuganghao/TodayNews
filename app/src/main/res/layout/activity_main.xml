@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+<FrameLayout
+    android:id="@+id/fl_container"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"/>
+<RadioGroup
+    android:id="@+id/rg_group"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <RadioButton
+        android:id="@+id/rg_home"
+        android:drawableTop="@drawable/selector_home"
+        android:text="首页"
+        style="@style/RadioButtonStyle" />
+    <RadioButton
+        android:id="@+id/rg_video"
+        android:drawableTop="@drawable/selector_video"
+        android:text="西瓜视频"
+       style="@style/RadioButtonStyle"/>
+    <Button
+        android:id="@+id/btn_asq"
+        android:layout_marginBottom="5dp"
+        android:background="@mipmap/asq"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"/>
+    <RadioButton
+        android:id="@+id/rg_pic"
+        android:drawableTop="@drawable/selector_talk"
+        android:text="组图"
+    style="@style/RadioButtonStyle"/>
+    <RadioButton
+        android:id="@+id/rg_user"
+        android:drawableTop="@drawable/selector_user"
+        android:text="我的"
+     style="@style/RadioButtonStyle"/>
+</RadioGroup>
+</LinearLayout>

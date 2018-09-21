@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="@drawable/pic_list_item_bg"
+    android:layout_height="wrap_content">
+<ImageView
+    android:id="@+id/iv_image"
+    android:background="@mipmap/pic_item_list_default"
+    android:layout_width="match_parent"
+    android:layout_height="180dp" />
+    <TextView
+        android:id="@+id/tv_title"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="图片的描述内容"/>
+</LinearLayout>
+</LinearLayout>
